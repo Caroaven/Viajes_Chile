@@ -19,3 +19,9 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $(".btn").click(function() {
+        alert("Ingrese todos los datos...");
+    });
+});
+
