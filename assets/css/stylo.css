@@ -72,6 +72,10 @@
 
 .navbar a {
     color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
 }
 
 .Info h2 {
@@ -92,31 +96,32 @@
 
 .Parrafos {
     display: flex;
-    text-align: left; 
+    text-align: left;
+    padding-left: 100px;
 }
 
 .Parrafo1 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;   
 }
-.Parrafo2 {
+
+.Parrafo3 {
+    margin-left: 200px;
     margin-right: 50px;
 }
 
 .Parrafos i {
     background-color: #35bcd3;
-    width: 200px;
+    width: 300px;
     height: 25px;
     text-align: center;
     color: #fff;
     padding: 5px;
-    
-    
 }
 
 .Tarjetas {
-    padding: 80px;
+    padding: 200px;
 }
+
 
 .Tarjetas h2 {
     color: #fff;
@@ -144,10 +149,8 @@
 
 .card-body {
     background-color: #35bcd3;
-
+    box-sizing: border-box;
 }
-
-
 
 .mb-3 {
     color: #fff;
@@ -157,13 +160,21 @@
     margin-top: 80px;
 }
 
+.Boton {
+    margin-top: 15px;
+}
+
 footer {
     background: #35bcd3;
     color: #fff;
     padding: 20px;
     height: 80px;
-    margin-top: 40px;
-    
+}
+
+footer h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .social-links i {
