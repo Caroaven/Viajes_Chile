@@ -1,0 +1,178 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.Info h2 {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Info p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Parrafos {
+    display: flex;
+    text-align: left; 
+}
+
+.Parrafo1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Parrafo2 {
+    margin-right: 50px;
+}
+
+.Parrafos i {
+    background-color: #35bcd3;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    
+    
+}
+
+.Tarjetas {
+    padding: 80px;
+}
+
+.Tarjetas h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Tarjetas p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #fff;
+}
+
+.Tarjetas h5 {
+    color: #fff;
+}
+
+.Tarjetas h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-body {
+    background-color: #35bcd3;
+
+}
+
+
+
+.mb-3 {
+    color: #fff;
+}
+
+.Contactame {
+    margin-top: 80px;
+}
+
+footer {
+    background: #35bcd3;
+    color: #fff;
+    padding: 20px;
+    height: 80px;
+    margin-top: 40px;
+    
+}
+
+.social-links i {
+
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.Fondo-cuerpo {
+    background: black;
+}

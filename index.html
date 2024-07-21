@@ -25,124 +25,225 @@
 <body>
     <!--Navbar-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <img src="assets/img/viajes.svg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Viajes Chile</a>
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-transparent ">
+            <div class="container-fluid px-5 navbar-container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/img/viajes.svg" alt="Logo" width="30px" height="24px"
+                        class="d-inline-block align-text-top">Viajes Chile
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="#">Inicio</a>
                         <a class="nav-link" href="#">Quienes somos</a>
                         <a class="nav-link" href="#">Destacados</a>
-                        <a class="nav-link disabled" aria-disabled="true">Contacto</a>
-                    </div>
+                        <a class="nav-link" href="#">Contacto</a>
                 </div>
+            </div>
             </div>
         </nav>
     </header>
 
     <!--Carrusel-->
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Torres del Paine">
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Torres del Paine">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moais">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moais">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </section>
 
     <!--Quienes somos-->
-    <h2>DESTACADOS</h2>
-    <i class="fa-solid fa-plane"></i>
-    <i class="fa-solid fa-mountain"></i>
-    <i class="fa-solid fa-route"></i>
+    <section>
+        <div class="Fondo-cuerpo">
+            <div class="Info">
+                <h2>QUIENES SOMOS?</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="Parrafos">
+                            <div class="Parrafo1">
+                                <i class="fa-solid fa-plane"></i>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nihil corporis velit
+                                    totam
+                                    repellat,
+                                    eaque
+                                    itaque
+                                    aliquam voluptates impedit sint, obcaecati, odit sequi dolore neque aspernatur hic
+                                    necessitatibus
+                                    porro
+                                    a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta optio velit, vero
+                                    consectetur non fugit aperiam ipsa ratione error atque! Nihil, asperiores inventore.
+                                    Quae dolor dolorem beatae repellat, distinctio amet?
+                                </p>
+                            </div>
+                            <div class="Parrafo2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos
+                                    laboriosam
+                                    excepturi
+                                    vitae
+                                    itaque!
+                                    Veniam cumque obcaecati pariatur minima, ipsum voluptatem exercitationem eligendi
+                                    voluptatibus.
+                                    Vel
+                                    amet
+                                    nemo
+                                    nesciunt perferendis asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Tempore suscipit quas accusamus provident perspiciatis voluptas impedit atque
+                                    id sit? Maiores quas distinctio repellendus voluptate aliquam non repudiandae unde
+                                    saepe aspernatur?</p>
+                                <i class="fa-solid fa-mountain"></i>
+                            </div>
+                            <div class="Parrafo3">
+                                <i class="fa-solid fa-route"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo libero harum corrupti,
+                                    ipsa
+                                    est
+                                    natus
+                                    culpa.
+                                    Eveniet
+                                    dignissimos molestias earum quisquam vitae sit perspiciatis culpa, distinctio
+                                    commodi
+                                    exercitationem
+                                    qui
+                                    sequi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident et
+                                    delectus rem, ut non corrupti voluptate, atque quae hic asperiores odio nulla minus,
+                                    quam iusto expedita nisi adipisci est nesciunt?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!--Tarjetas-->
-    <div class="row">
-        <!--Tarjeta 1-->
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="Tarjeta 1">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-        <!--Tarjeta 2-->
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="Tarjeta 2">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-        <!--Tarjeta 3-->
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="Tarjeta 3">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-        <!--Tarjeta 4-->
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="Tarjeta 4">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-    </div>
+            <!--Tarjetas-->
+            <section class="Tarjetas">
+                <div class="container-card text-center">
+                    <h2>DESTACADOS</h2>
+                    <!--Tarjeta 1-->
+                    <div class="row">
+                        <div class="card sm-col-12 col-3 mx-5 my-5" style="width: 18rem;">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="Tarjeta 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <!--Tarjeta 2-->
+                        <div class="card sm-col-12 col-3 mx-5 my-5" style="width: 18rem;">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="Tarjeta 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <!--Tarjeta 3-->
+                        <div class="card sm-col-12 col-3 mx-5 my-5" style="width: 18rem;">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="Tarjeta 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <!--Tarjeta 4-->
+                        <div class="card sm-col-12 col-3 mx-5 my-5" style="width: 18rem;">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="Tarjeta 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <!--Formulario-->
-    <h2>CONTACTO</h2>
-    <form>
-        <div class="mb-3">
-            <label for="Nombre" class="form-label">Nombre</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                <!--Formulario-->
+                <section class="Contactame">
+                    <div class="container text-center">
+                        <h2>CONTACTO</h2>
+                        <div class="text-start">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="Nombre" class="form-label">Nombre</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Asunto" class="form-label">Asunto</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </form>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Deja tu mensaje aqui" id="floatingTextarea2"
+                                    style="height:  100px"></textarea>
+                                <label for="Mensaje" class="form-label">Mensaje</label>
+                            </div>
+                            <div class="boton-enviar my-3"><button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </div>
-        <div class="mb-3">
-            <label for="Asunto" class="form-label">Asunto</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-    </form>
-    <div class="mb-3">
-        <label for="Mensaje" class="form-label">Mensaje</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    </section>
 
     <!--Footer-->
-    <h3>VIAJES CHILE</h3>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-facebook"></i>
+    <footer>
+        <div class="container">
+            <div class="footer-content d-flex justify-content-between align-items-center">
+                <h3>VIAJES CHILE</h3>
+
+                <nav class="social-links">
+                    <div class="container">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
 
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
